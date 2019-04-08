@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'gatsby'
+
 
 const Header = () => {
   return (
@@ -7,7 +9,16 @@ const Header = () => {
         textAlign: 'center',
       }}
     >
-      {/* <h2>Site Title</h2> */}
+      {
+        <Link
+          style={{
+            textDecoration: 'none',
+
+          }}
+          to={'/'}
+        ><h2>Rory Green</h2>
+        </Link>
+      }
     </div>
   )
 }

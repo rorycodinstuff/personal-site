@@ -40,8 +40,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
-        <ul
+ {/*       <ul
           style={{
             display: 'flex',
             flexWrap: 'wrap',
@@ -64,7 +63,7 @@ class BlogPostTemplate extends React.Component {
               </Link>
             )}
           </li>
-        </ul>
+            </ul> */}
       </Layout>
     )
   }
