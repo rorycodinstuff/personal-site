@@ -17,19 +17,21 @@ export class Navbar extends Component {
       >
         <div
           style={{
-            width: rhythm(6),
+            width: rhythm(24),
             maxWidth: 400,
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',
-            textDecoration: 'none'
           }}
         >
-        <Link style={{textDecoration: 'none' }} to={'/portfolio'}>Work</Link>
-         {/* <Link style={{textDecoration: 'none' }} to={'/portfolio'}>Work</Link> */}
-         {/* <Link style={{textDecoration: 'none' }} to={'/journey'}>Journey</Link> */}
-          <Link style={{textDecoration: 'none' }} to={'/contact'}>Contact</Link>
-          <Link style={{textDecoration: 'none' }} to={'/blog'}>Blog</Link>
+          <Link to={'/'}>Home</Link>
+          <Link to={'/portfolio'}>Portfolio</Link>
+          <Link to={'/journey'}>Journey</Link>
+          <a href={contactData.github} target="_new">
+            Github
+          </a>
+          <Link to={'/contact'}>Contact</Link>
+          <Link to={'/blog'}>Blog</Link>
         </div>
       </div>
     )
