@@ -38,6 +38,9 @@ class SiteIndex extends React.Component {
           Habitasse platea dictumst quisque sagittis. Sem viverra aliquet eget
           sit amet tellus cras adipiscing enim. Amet massa vitae tortor
           condimentum lacinia quis vel eros donec.
+<<<<<<< HEAD
+>>>>>>> parent of 22810b6... tinkering
+=======
 >>>>>>> parent of 22810b6... tinkering
         </p>
         <img src={DisplayImage} alt={siteTitle} />
