@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-minimal-portfolio-blog',
-    author: 'Sai Krishna',
+    title: 'Rory Green',
+    author: 'Rory Green',
     description:
-      'GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers.',
-    siteUrl: 'https://saikrishna.me',
+      'Rory Green is a digital tinkerer living in Sydney, Australia.',
+    siteUrl: 'https://rory.green',
   },
   pathPrefix: '/',
   plugins: [
@@ -52,10 +52,10 @@ module.exports = {
         name: `gatsby-minimal-portfolio-blog`,
         short_name: `gmpb`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#f2f2f2`,
+        theme_color: `#4973c2`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
+        icon: `src/assets/sparkles.png`,
       },
     },
     `gatsby-plugin-offline`,
@@ -67,5 +67,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-markdown-pages',
+      options: {
+         path: './src/pages/work', // Path to markdown files to be converted to pages
+         templatePath: './src/components', // Path to page templates
+         template: 'layout', // Default template to use if none is supplied
+      }
+   },
   ],
 }

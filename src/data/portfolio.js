@@ -4,12 +4,10 @@ import Image3 from './../assets/images/image3.jpg'
 
 const data = [
   {
-    title: 'Project 1',
-    website: 'https://example.com',
-    description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
-    eget arcu dictum varius duis.`,
-    image: Image1,
+    title: 'Writing',
+    description: `'golem' in Plumwood Mountain, August 2018/n/n'mammoth' in RABBIT, March 2018\n\n'mountain' and '🍻' in Malevolent Soap, December 2017`,
+    website: 'https://google.com',
+    image: Image2,
   },
   {
     title: 'Project 2',

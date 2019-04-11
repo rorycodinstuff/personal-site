@@ -20,9 +20,9 @@ class portfolioIndex extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`Portfolio | ${siteTitle}`}
+          title={`Work | ${siteTitle}`}
         />
-        <h2>Portfolio</h2>
+        <h2>Work</h2>
         <br />
         <div
           style={{
@@ -33,7 +33,7 @@ class portfolioIndex extends React.Component {
             <Row>
               {portfolioData.map(p => (
                 <Col xs={12} sm={12} md={6} lg={6} key={p.title}>
-                  <Link to={'/portfolio/view'} state={p} key={p.title}>
+                  <Link to={p.website} state={p} key={p.title}>
                     <div
                       style={{
                         display: 'flex',

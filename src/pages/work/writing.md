@@ -1,9 +1,6 @@
 ---
-title: Hello World
-path: '/blog/hello-world/'
-date: 2019-01-02T09:14:52+00:00
-author: Rory
-type: post
+title: Writing
+template: layout
 ---
 
 <!--- All of the above frontmatter fields are mandatory -->

@@ -20,7 +20,6 @@ export class view extends Component {
         </Helmet>
         <Link to="/portfolio">&larr; back</Link>
         <h2>{title}</h2>
-        <img src={image} />
         <div>
           {description}
           <br /> <br />
